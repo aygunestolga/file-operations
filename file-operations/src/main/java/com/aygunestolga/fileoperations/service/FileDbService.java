@@ -29,7 +29,7 @@ public class FileDbService implements IFileDbService{
 		String type = "png";
 		if(FileDbUtils.validateType(type)) {
 			/*
-			 * işlemler
+			 * işlemlerr
 			 */
 		}else {
 			
