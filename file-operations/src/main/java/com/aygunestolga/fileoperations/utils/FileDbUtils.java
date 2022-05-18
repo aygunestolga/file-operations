@@ -6,7 +6,7 @@ public class FileDbUtils {
 		// burada gelen dosyanın tipinin kontrolü yapılacak
 		if (type != "png" || type != "jpeg") {
 			/*
-			 * eğer ki buraya girerse işlemler!
+			 * eğer ki buraya girerse
 			 *
 			 */
 			return false;
