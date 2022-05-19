@@ -26,11 +26,12 @@ public class FileDbService implements IFileDbService{
 		String fileName = file.getOriginalFilename();
 		FileDb fileDb = new FileDb(UUID.randomUUID().toString(), fileName, file.getContentType(), file.getBytes());
 		
-		String type = "png";
-		if(FileDbUtils.validateType(type)) {
-			/*
-			 * işlemlerr
-			 */
+		
+		if(FileDbUtils.removeDirectoryRecursive(null)) {
+			
+			FileDbUtils.removeDirectoryRecursive(null);
+				
+			
 		}else {
 			
 		}
